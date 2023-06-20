@@ -1,0 +1,242 @@
+
+
+body::-webkit-scrollbar {
+    width: 0.75rem;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #FD0054;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: white;
+    /* color of the scroll thumb */
+    border-radius: 1.25rem;
+    /* roundness of the scroll thumb */
+    border: 0.125rem solid black;
+    /* creates padding around scroll thumb */
+}
+
+.container {
+
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+
+}
+
+.sub-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 31.25rem;
+    height: 31.25rem;
+
+}
+
+.form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+.form h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form p {
+    color: #9096B2;
+    font-size: 1.0625rem;
+    text-align: center;
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group input {
+    width: 90%;
+    height: 2.5rem;
+    border: none;
+    border: 0.0625rem solid #C2C5E1;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 0.125rem;
+    margin-bottom: -1.25rem;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: #9096B2;
+}
+
+.forgot-password {
+    font-size: 1.0625rem;
+    color: #FD0054;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.create-account {
+    font-size: 1.0625rem;
+    color: #9096B2;
+    text-decoration: none;
+
+}
+
+.create-account span a {
+    color: #FD0054;
+    text-decoration: underline;
+}
+
+.button {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button {
+    width: 100%;
+    height: 2.8125rem;
+    background: #FB2E86;
+    border-radius: 0.125rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.0625rem;
+    border: none;
+
+}
+
+footer {
+    overflow: hidden;
+    display: flex;
+    background: black;
+
+    color: white
+}
+
+.box-superior {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    height: 21.875rem;
+    padding: 3.125rem;
+
+}
+
+.logo-footer {
+    width: 25%;
+    height: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+.box-logo {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    color: #FD0054;
+
+}
+
+.box-superior p {
+    color: white;
+    opacity: 0.5;
+    font-size: 0.8125rem;
+    font-weight: 700;
+
+}
+
+.logo-footer input {
+    background: #000000;
+    border: 0.0625rem solid #787878;
+    width: 16.875rem;
+    height: 2.5rem;
+    border-radius: 0.125rem;
+    margin-right: 0.625rem;
+}
+
+.button-input {
+    display: flex;
+
+}
+
+#placeholder-text::placeholder {
+    color: #787878;
+    font-weight: 700;
+    font-size: 0.8125rem;
+}
+
+.logo-footer button {
+    border: 0.0625rem solid #FD0054;
+    border-radius: 0.125rem;
+    width: 8.125rem;
+    background: #000000;
+    color: white;
+}
+
+.box-superior ul {
+    display: flex;
+    flex-direction: column;
+
+    align-items: space-around;
+    width: 20%;
+    height: 12.5rem;
+
+}
+
+.box-superior ul p {
+    font-weight: 700;
+    font-size: 1rem;
+    opacity: 1;
+    color: white;
+    margin-bottom: 1.25rem;
+
+}
+
+.box-superior ul li {
+    font-size: 0.875rem;
+    color: white;
+    opacity: 0.8;
+    margin-bottom: 0.625rem;
+
+}
+
+.copyright {
+    text-align: center;
+
+    padding: 1.25rem;
+}
+
+.copyright a {
+    color: #FD0054;
+    opacity: 1;
+}
+@media screen and (max-width: 800px){
+   
+    
+
+}

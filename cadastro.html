@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="resources/css/menu.css" />
+    <link rel="stylesheet" href="resources/css/cadastro.css" />
+    <link rel="stylesheet" href="vendors/css/reset.css" />
+    <link rel="stylesheet" href="vendors/fonts/fonts.css" />
+    <link rel="stylesheet" href="resources/css/footer.css" />
+    <link rel="stylesheet" href="resources/css/scroll.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+
+    <link
+      rel="shortcut icon"
+      href="resources/img/favicon.jpg"
+      type="image/x-icon"
+    />
+    <title>CADASTRO-GAMERS</title>
+  </head>
+
+  <body>
+    <header>
+      <nav id="menu">
+        <input
+          type="checkbox"
+          id="responsive-menu"
+          onclick="updatemenu()"
+        /><label></label>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li ><a class="active" href="cadastro.html">Cadastro</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a  href="http://">Galeria</a></li>
+          <li><a href="groot.html">Fale com o Groot</a></li>
+        </ul>
+        <div class="logo">
+          <p>GAMERS</p>
+          <img width="50px" src="resources/img/favicon.jpg" alt="" />
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <form>
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" placeholder="Digite seu username" required>
+        </div>
+  
+        <div class="form-group">
+          <label for="password">Senha:</label>
+          <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+        </div>
+  
+        <div class="form-group">
+          <label for="confirm-password">Confirmação de Senha:</label>
+          <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirme sua senha" required>
+        </div>
+  
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+        </div>
+  
+        <div class="form-group">
+          <label for="birthdate">Data de Aniversário:</label>
+          <input type="date" id="birthdate" name="birthdate" required>
+        </div>
+  
+        <div class="button">
+          <button id="cadastroButton" type="submit" class="enabled">Cadastrar</button>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="redes">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+
+        <div class="redes">
+          <ul>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </div>
+
+        <div class="redes">
+          <a href="https://github.com/Cabreira97">
+            Desenvolvido por Thiago Cabreira</a
+          >
+          Copyright © 2023 Cabreira - All rights reserved || Designed By:
+          <a href="https://www.figma.com/@akshay24"> Akshay Jain</a>
+          <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px;margin-top: 50px;"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="CSS válido!" />
+            </a>
+            <a href="http://www.w3.org/Icons/valid-html20">
+              <img style="border:0;width:88px;height:31px;margin-top: 50px;"
+                  src="http://www.w3.org/Icons/valid-html20"
+                  alt="HTML válido!" />
+          </a>
+        </p>
+        </div>
+      </div>
+    </footer>
+    <script src="resources/js/cadastro.js"></script>
+    <script src="resources/js/menu.js"></script>
+
+  </body>
+</html>
